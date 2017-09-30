@@ -1,6 +1,6 @@
 {
   "name": "flexbox-react",
-  "version": "4.7.3",
+  "version": "4.7.4",
   "description": "Unopinionated, standard compliant flexbox component. No propietary APIs. Nothing but flexbox.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -30,19 +30,16 @@
   "author": " <ignacioalvarez92@gmail.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/nachoaIvarez/flexbox-react/issues"
+    "url": "https://github.com/viggyfresh/flexbox-react/issues"
   },
-  "homepage": "https://github.com/nachoaIvarez/flexbox-react#readme",
-  "optionalDependencies": {
-    "@types/react": "^16.0.7",
-    "@types/react-dom": "^15.5.5"
-  },
+  "homepage": "https://github.com/viggyfresh/flexbox-react#readme",
   "peerDependencies": {
-    "prop-types": "*",
-    "react": "*",
-    "react-dom": "*"
+    "react": "^16.0.0",
+    "react-dom": "^16.0.0"
   },
   "devDependencies": {
+    "@types/react": "^16.0.7",
+    "@types/react-dom": "^15.5.5",
     "babel-cli": "^6.24.1",
     "babel-core": "^6.24.1",
     "babel-eslint": "^8.0.1",
@@ -56,7 +53,8 @@
     "eslint-plugin-jsx-a11y": "^5.1.1",
     "eslint-plugin-react": "^7.4.0",
     "jest": "^21.2.1",
-    "prop-types": "^15.5.8",
+    "prop-types": "^15.6.0",
+    "raf": "^3.3.2",
     "react": "^16.0.0",
     "react-dom": "^16.0.0",
     "react-test-renderer": "^16.0.0",
@@ -65,7 +63,6 @@
     "watch": "^1.0.2"
   },
   "dependencies": {
-    "raf": "^3.3.2",
     "styled-components": "^2.0.0"
   },
   "jest": {
