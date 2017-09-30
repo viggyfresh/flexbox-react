@@ -1,6 +1,6 @@
 {
   "name": "flexbox-react",
-  "version": "4.7.4",
+  "version": "4.7.5",
   "description": "Unopinionated, standard compliant flexbox component. No propietary APIs. Nothing but flexbox.",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
@@ -34,8 +34,8 @@
   },
   "homepage": "https://github.com/viggyfresh/flexbox-react#readme",
   "peerDependencies": {
-    "react": "^16.0.0",
-    "react-dom": "^16.0.0"
+    "react": "*",
+    "react-dom": "*"
   },
   "devDependencies": {
     "@types/react": "^16.0.7",
