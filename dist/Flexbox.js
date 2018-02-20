@@ -73,9 +73,9 @@ var Flexbox = (0, _styledComponents2.default)(function (_ref) {
 }, function (props) {
   return props.flexDirection ? 'flex-direction: ' + props.flexDirection + ';' : '';
 }, function (props) {
-  return props.flexGrow ? 'flex-grow: ' + props.flexGrow + ';' : '';
+  return props.flexGrow !== undefined ? 'flex-grow: ' + props.flexGrow + ';' : '';
 }, function (props) {
-  return props.flexShrink ? 'flex-shrink: ' + props.flexShrink + ';' : '';
+  return props.flexShrink !== undefined ? 'flex-shrink: ' + props.flexShrink + ';' : '';
 }, function (props) {
   return props.flexWrap ? 'flex-wrap: ' + props.flexWrap + ';' : '';
 }, function (props) {
@@ -101,7 +101,7 @@ var Flexbox = (0, _styledComponents2.default)(function (_ref) {
 }, function (props) {
   return props.minWidth ? 'min-width: ' + props.minWidth + ';' : '';
 }, function (props) {
-  return props.order ? 'order: ' + props.order + ';' : '';
+  return props.order !== undefined ? 'order: ' + props.order + ';' : '';
 }, function (props) {
   return props.padding ? 'padding: ' + props.padding + ';' : '';
 }, function (props) {

@@ -42,8 +42,8 @@ const Flexbox = styled(({
   ${props => (props.flex ? `flex: ${props.flex};` : '')}
   ${props => (props.flexBasis ? `flex-basis: ${props.flexBasis};` : '')}
   ${props => (props.flexDirection ? `flex-direction: ${props.flexDirection};` : '')}
-  ${props => (props.flexGrow ? `flex-grow: ${props.flexGrow};` : '')}
-  ${props => (props.flexShrink ? `flex-shrink: ${props.flexShrink};` : '')}
+  ${props => (props.flexGrow !== undefined ? `flex-grow: ${props.flexGrow};` : '')}
+  ${props => (props.flexShrink !== undefined ? `flex-shrink: ${props.flexShrink};` : '')}
   ${props => (props.flexWrap ? `flex-wrap: ${props.flexWrap};` : '')}
   ${props => (props.height ? `height: ${props.height};` : '')}
   ${props => (props.justifyContent ? `justify-content: ${props.justifyContent};` : '')}
@@ -56,7 +56,7 @@ const Flexbox = styled(({
   ${props => (props.maxWidth ? `max-width: ${props.maxWidth};` : '')}
   ${props => (props.minHeight ? `min-height: ${props.minHeight};` : '')}
   ${props => (props.minWidth ? `min-width: ${props.minWidth};` : '')}
-  ${props => (props.order ? `order: ${props.order};` : '')}
+  ${props => (props.order !== undefined ? `order: ${props.order};` : '')}
   ${props => (props.padding ? `padding: ${props.padding};` : '')}
   ${props => (props.paddingBottom ? `padding-bottom: ${props.paddingBottom};` : '')}
   ${props => (props.paddingLeft ? `padding-left: ${props.paddingLeft};` : '')}
